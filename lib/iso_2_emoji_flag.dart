@@ -1,7 +1,5 @@
 library iso_2_emoji_flag;
 
-/// A Calculator.
-class Calculator {
-  /// Returns [value] plus 1.
-  int addOne(int value) => value + 1;
+String Iso2EmojiFlag(String iso){
+  return iso.toUpperCase().split("").map((e) => String.fromCharCode(e.codeUnitAt(0) + 127397)).join("");;
 }
