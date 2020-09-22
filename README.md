@@ -6,10 +6,10 @@ Small package to obtain an emoji from his respective ISO code, and visceversa.
 
 **ISO CODE "TO" EMOJI FLAG**
 ``` dart
-Text(Iso2EmojiFlag("MX"))       // 🇲🇽
+Text(iso2EmojiFlag("MX"))       // 🇲🇽
 ```
 
 **EMOJI FLAG "TO" ISO CODE**
 ``` dart
-Text(EmojiFlag2Iso("🇺🇸"))       // US
+Text(emojiFlag2Iso("🇺🇸"))       // US
 ```

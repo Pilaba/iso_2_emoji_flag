@@ -4,10 +4,10 @@ import 'package:iso_2_emoji_flag/iso_2_emoji_flag.dart';
 
 void main() {
     test('Trying emoji to flag uS, Mx', () {
-      expect(Iso2EmojiFlag("uS"), "🇺🇸");
-      expect(Iso2EmojiFlag("Mx"), "🇲🇽");
+      expect(iso2EmojiFlag("uS"), "🇺🇸");
+      expect(iso2EmojiFlag("Mx"), "🇲🇽");
 
-      expect(EmojiFlag2Iso("🇺🇸"), "US");
-      expect(EmojiFlag2Iso("🇲🇽"), "MX");
+      expect(emojiFlag2Iso("🇺🇸"), "US");
+      expect(emojiFlag2Iso("🇲🇽"), "MX");
     });
 }
