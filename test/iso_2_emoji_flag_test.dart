@@ -6,5 +6,8 @@ void main() {
     test('Trying emoji to flag uS, Mx', () {
       expect(Iso2EmojiFlag("uS"), "🇺🇸");
       expect(Iso2EmojiFlag("Mx"), "🇲🇽");
+
+      expect(EmojiFlag2Iso("🇺🇸"), "US");
+      expect(EmojiFlag2Iso("🇲🇽"), "MX");
     });
 }

@@ -1,3 +1,7 @@
-## [1.0.0] - TODO: Add release date.
+## 1.0.0
 
-* TODO: Describe initial release.
+- Added method Iso2EmojiFlag
+- Added method EmojiFlag2Iso
+
+
+
