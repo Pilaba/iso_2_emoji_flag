@@ -1,13 +1,13 @@
 name: iso_2_emoji_flag
 description: Small package to obtain an emoji from his respective ISO code, and visceversa.
-version: 1.0.1
+version: 1.0.2
 # authors:
 #   - Baldemar Alejandres <pilabapoche@gmail.com>
 homepage: https://github.com/Pilaba/iso_2_emoji_flag
 
 environment:
   sdk: ">=2.12.0 <4.0.0"
-  flutter: ">=1.17.0 <2.0.0"
+  flutter: ">=1.17.0"
 
 dependencies:
   flutter:
